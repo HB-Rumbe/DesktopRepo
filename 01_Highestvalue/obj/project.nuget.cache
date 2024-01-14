@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cTeQRT+Va39aXbCvBjrnEeQiHtoi1sf8Rtd6yCUaTO9QLAs5jm0U+6rocCMn0csSAD/L5ThAJzz5sKZhHHA1WQ==",
+  "dgSpecHash": "z2yD8B9MJM7rz4qXVghAAZXv6+mwHgv3M6ORRx3xQ8udITUUGFPqipz4LdDP1wbGi5iYWz2pYS8cicorqnzIMQ==",
   "success": true,
-  "projectFilePath": "C:\\Pro2023\\Csharp\\01_Highestvalue\\01_Highestvalue.csproj",
+  "projectFilePath": "C:\\Pro2023\\Csharp\\DesktopRepo\\01_Highestvalue\\01_Highestvalue.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pro2023\\Csharp\\DesktopRepo\\02_wordcracker\\02_wordcracker.csproj": {}
+    "C:\\Pro2023\\Csharp\\DesktopRepo\\03_\\03_.csproj": {}
   },
   "projects": {
-    "C:\\Pro2023\\Csharp\\DesktopRepo\\02_wordcracker\\02_wordcracker.csproj": {
+    "C:\\Pro2023\\Csharp\\DesktopRepo\\03_\\03_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pro2023\\Csharp\\DesktopRepo\\02_wordcracker\\02_wordcracker.csproj",
-        "projectName": "02_wordcracker",
-        "projectPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\02_wordcracker\\02_wordcracker.csproj",
+        "projectUniqueName": "C:\\Pro2023\\Csharp\\DesktopRepo\\03_\\03_.csproj",
+        "projectName": "03_",
+        "projectPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\03_\\03_.csproj",
         "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\02_wordcracker\\obj\\",
+        "outputPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\03_\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,15 @@
+C:\Pro2023\Csharp\DesktopRepo\03_\bin\Debug\net6.0\03_.exe
+C:\Pro2023\Csharp\DesktopRepo\03_\bin\Debug\net6.0\03_.deps.json
+C:\Pro2023\Csharp\DesktopRepo\03_\bin\Debug\net6.0\03_.runtimeconfig.json
+C:\Pro2023\Csharp\DesktopRepo\03_\bin\Debug\net6.0\03_.dll
+C:\Pro2023\Csharp\DesktopRepo\03_\bin\Debug\net6.0\03_.pdb
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\03_.csproj.AssemblyReference.cache
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\03_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\03_.AssemblyInfoInputs.cache
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\03_.AssemblyInfo.cs
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\03_.csproj.CoreCompileInputs.cache
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\03_.dll
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\refint\03_.dll
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\03_.pdb
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\03_.genruntimeconfig.cache
+C:\Pro2023\Csharp\DesktopRepo\03_\obj\Debug\net6.0\ref\03_.dll
