@@ -1,0 +1,15 @@
+C:\Pro2023\Csharp\02_wordcracker\bin\Debug\net6.0\02_wordcracker.exe
+C:\Pro2023\Csharp\02_wordcracker\bin\Debug\net6.0\02_wordcracker.deps.json
+C:\Pro2023\Csharp\02_wordcracker\bin\Debug\net6.0\02_wordcracker.runtimeconfig.json
+C:\Pro2023\Csharp\02_wordcracker\bin\Debug\net6.0\02_wordcracker.dll
+C:\Pro2023\Csharp\02_wordcracker\bin\Debug\net6.0\02_wordcracker.pdb
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\02_wordcracker.csproj.AssemblyReference.cache
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\02_wordcracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\02_wordcracker.AssemblyInfoInputs.cache
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\02_wordcracker.AssemblyInfo.cs
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\02_wordcracker.csproj.CoreCompileInputs.cache
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\02_wordcracker.dll
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\refint\02_wordcracker.dll
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\02_wordcracker.pdb
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\02_wordcracker.genruntimeconfig.cache
+C:\Pro2023\Csharp\02_wordcracker\obj\Debug\net6.0\ref\02_wordcracker.dll
