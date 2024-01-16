@@ -23,7 +23,7 @@ while (track)
     SetCursorPosition(x, y);
     Write("o");
     Thread.Sleep(speed);
-    string read = Console.ReadLine();
+    string read = Console.ReadLine()!;
 
 
     if (x == 80 && y == 5)
