@@ -1,0 +1,15 @@
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\bin\Debug\net6.0\06_forloops.exe
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\bin\Debug\net6.0\06_forloops.deps.json
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\bin\Debug\net6.0\06_forloops.runtimeconfig.json
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\bin\Debug\net6.0\06_forloops.dll
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\bin\Debug\net6.0\06_forloops.pdb
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_forloops.csproj.AssemblyReference.cache
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_forloops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_forloops.AssemblyInfoInputs.cache
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_forloops.AssemblyInfo.cs
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_forloops.csproj.CoreCompileInputs.cache
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_forloops.dll
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\refint\06_forloops.dll
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_forloops.pdb
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_forloops.genruntimeconfig.cache
+C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\ref\06_forloops.dll
