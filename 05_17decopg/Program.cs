@@ -244,10 +244,9 @@ Console.WriteLine("How long should the second array be?");
 int arraylength2 = Convert.ToInt32(Console.ReadLine());
 Console.Clear();
 
-int count = 0;
 int[] array1 = new int[arraylength];
 int[] array2 = new int[arraylength2];
-int[] arraymerged = new int[arraylength + arraylength2];
+
 int[] arrayordered = new int[arraylength + arraylength2];
 
 for (int i = 0; i < array1.Length; i++)
@@ -265,41 +264,14 @@ for (int i = 0; i < array2.Length; i++)
     array2[i] = read;
     Console.Clear();
 }
-for (int i = 0; i < array1.Length; i++)
-{
-    arraymerged[i] += array1[i];
-    count ++;
-}
-for(int i = 0; i < array2.Length; i++)
-{
-    arraymerged[i+count] = array2[i];
-
-}
-
-for(int i = 0; i<arraymerged.Length; i++)
-{
-    count = 0;
-    
-    for(int j = 0; j<arraymerged.Length; j++)
-    {
-
-        if(arraymerged[i] > arraymerged[j])
-        {
-            count++;
-        }
-        if(arraymerged[i] == arraymerged[j])
-        {
-            count++;
-        }
-        
-
-    }
-      arrayordered[count] = arraymerged[i];
 
 
 
 
-}
+
+
+
+
 
 
 Console.Write("\narray1: ");
@@ -312,11 +284,7 @@ for (int n = 0; n < array2.Length; n++)
 {
     Console.Write(array2[n] + " ");
 }
-Console.Write("\narraymerged: ");
-for (int n = 0; n < arraymerged.Length; n++)
-{
-    Console.Write(arraymerged[n] + " ");
-}
+
 Console.Write("\narrayordered:");
 for (int n = 0; n < arrayordered.Length; n++)
 {
