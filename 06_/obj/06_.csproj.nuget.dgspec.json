@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pro2023\\Csharp\\DesktopRepo\\04_16decopg\\04_16decopg.csproj": {}
+    "C:\\Pro2023\\Csharp\\DesktopRepo\\06_\\06_.csproj": {}
   },
   "projects": {
-    "C:\\Pro2023\\Csharp\\DesktopRepo\\04_16decopg\\04_16decopg.csproj": {
+    "C:\\Pro2023\\Csharp\\DesktopRepo\\06_\\06_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pro2023\\Csharp\\DesktopRepo\\04_16decopg\\04_16decopg.csproj",
-        "projectName": "04_16decopg",
-        "projectPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\04_16decopg\\04_16decopg.csproj",
+        "projectUniqueName": "C:\\Pro2023\\Csharp\\DesktopRepo\\06_\\06_.csproj",
+        "projectName": "06_",
+        "projectPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\06_\\06_.csproj",
         "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-        "outputPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\04_16decopg\\obj\\",
+        "outputPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\06_\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"

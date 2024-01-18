@@ -1,4 +1,7 @@
-﻿// opgave 1
+﻿
+// https://www.w3resource.com/csharp-exercises/array/index.php
+
+// opgave 1
 /*
 while (true)
 {
@@ -232,8 +235,8 @@ while (true)
     break;
 }
 */
-//opgave 7
-
+//opgave 7 unfinished
+/*
 Console.Clear();
 Console.WriteLine("How long should the first array be?");
 int arraylength = Convert.ToInt32(Console.ReadLine());
@@ -290,3 +293,81 @@ for (int n = 0; n < arrayordered.Length; n++)
 {
     Console.Write(arrayordered[n] + " ");
 }
+*/
+// opgave 8 unfinished
+/*
+while (true)
+{
+    Console.Clear();
+    Console.WriteLine("How long should the array be?");
+    int arraylength = Convert.ToInt32(Console.ReadLine());
+    Console.Clear();
+
+    int count = 0;
+
+    int[] inputs = new int[arraylength];
+    int[] amount = new int[arraylength];
+
+    for (int i = 0; i < inputs.Length; i++)
+    {
+        Console.WriteLine($"Please write a number. ({i + 1})");
+        int read = Convert.ToInt32(Console.ReadLine()!);
+        inputs[i] = read;
+        Console.Clear();
+    }
+
+    for (int i = 0; i < inputs.Length; i++)
+    {
+        count = 0;
+        for (int j = 0; j < inputs.Length; j++)
+        {
+
+            if (inputs[i] == inputs[j])
+            {
+                count++;
+                
+
+            }
+
+
+
+        }
+        amount[i] = count;
+    }
+
+    for (int i = 0; i < inputs.Length; i++)
+    {
+        if (amount[i] != 0)
+        {
+            Console.WriteLine($"{inputs[i]} occurs {amount[i]}");
+
+
+        }
+
+
+
+    }
+
+
+
+    Console.Write("\nHere are your inputs: ");
+
+    for (int n = 0; n < inputs.Length; n++)
+    {
+        Console.Write(inputs[n] + " ");
+    }
+    break;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
