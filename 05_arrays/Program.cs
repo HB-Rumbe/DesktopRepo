@@ -1,5 +1,4 @@
 ﻿
-// Arrays
 // https://www.w3resource.com/csharp-exercises/array/index.php
 
 // opgave 1
