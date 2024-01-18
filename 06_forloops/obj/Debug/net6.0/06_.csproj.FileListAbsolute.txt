@@ -1,5 +1,0 @@
-C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_.csproj.AssemblyReference.cache
-C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_.GeneratedMSBuildEditorConfig.editorconfig
-C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_.AssemblyInfoInputs.cache
-C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_.AssemblyInfo.cs
-C:\Pro2023\Csharp\DesktopRepo\06_forloops\obj\Debug\net6.0\06_.csproj.CoreCompileInputs.cache
