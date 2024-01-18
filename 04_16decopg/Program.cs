@@ -1,4 +1,4 @@
-﻿/*
+﻿
 // opgave 1.1
 int evennumbers = 0;
 int oddnumbers = 0;
@@ -30,10 +30,10 @@ while (true)
 
     }
 }
-*/
+
 
 //opgave 1.2
-
+/*
 
 
 
@@ -61,3 +61,4 @@ while (while1)
 }
 
 Console.WriteLine("end");
+*/

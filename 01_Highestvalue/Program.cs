@@ -6,7 +6,7 @@ Console.Clear();
 Console.WriteLine("Please Input a number with less than 4 digits.");
 while (true)
 {
-    yessir = Console.ReadLine();
+    yessir = Console.ReadLine()!;
     if (yessir.Length < 4)
     {
         break;
