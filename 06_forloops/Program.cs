@@ -106,19 +106,148 @@ for(int i = 1; i <= length; i++)
 }
 */
 // opgave 8
-
-
-
+/*
 Console.Clear();
 Console.WriteLine("How many odd numbers would you like?");
 int length = Convert.ToInt32(Console.ReadLine());
 Console.Clear();
 int oddnumbers = 1;
+int sum = 0;
 
-for (int i = 0; i < length; i++;)
+for (int i = 0; i < length; i++)
 {
     Console.Write($"{oddnumbers} ");
     oddnumbers += 2;
+    sum += oddnumbers;
+}
+Console.WriteLine($"\nThe sum of the first {length} odd numbers is {sum}");
+*/
+// opgave 9
+
+/*
+Console.Clear();
+Console.WriteLine("How many rows would you like?");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+int astericks = 0;
+
+for (int i = 0; i < rows; i++)
+{
+    astericks += 1;
+    for (int j = 0; j < astericks; j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
 
 }
+*/
 
+//opgave 10
+/*
+Console.Clear();
+Console.WriteLine("How many rows would you like?");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+int length = 0;
+
+for (int i = 0; i < rows; i++)
+{
+    length += 1;
+    for (int j = 1; j < length; j++)
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+
+}
+*/
+
+//opgave 11
+/*
+Console.Clear();
+Console.WriteLine("How many rows would you like?");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+int length = 0;
+
+for (int i = 0; i < rows; i++)
+{
+    length += 1;
+    for (int j = 1; j < length; j++)
+    {
+        Console.Write(i);
+    }
+    Console.WriteLine();
+
+}
+*/
+
+// opgave 12
+/*
+Console.Clear();
+Console.WriteLine("How many rows would you like?");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+int length = 0;
+int number = 1;
+
+for (int i = 0; i < rows; i++)
+{
+    length += 1;
+    for (int j = 1; j < length; j++)
+    {
+
+        Console.Write(number + " ");
+        number++;
+    }
+    Console.WriteLine();
+
+}
+*/
+// opgave 13 and 14
+/*
+Console.Clear();
+Console.WriteLine("How many rows would you like?");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+int length = 0;
+int number = 1;
+int spaces = rows;
+
+  
+for (int i = 0; i <= rows; i++)
+{
+    
+    for(int j = spaces; j>= 0; j--)
+    {
+    Console.Write(" ");
+    }
+
+    length += 1;    
+    for (int j = 1; j < length; j++)
+    {
+
+        Console.Write(number + " ");
+        //number++;
+    }
+    Console.WriteLine();
+   spaces--;
+}
+*/
+// opgave 15 (hits int limit around 15!)
+/*
+Console.Clear();
+Console.WriteLine("How many rows would you like?");
+int factorial = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+int number = 1;
+
+for (int i = factorial; i >= 1; i--)
+{
+    Console.Write($"{i} ");
+    number *= i;
+
+}
+Console.WriteLine($"\nFactorial {factorial} = {number}");
+*/
