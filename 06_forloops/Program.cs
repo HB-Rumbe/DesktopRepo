@@ -105,5 +105,20 @@ for(int i = 1; i <= length; i++)
     Console.Write($"{number} X {i} = {number*i}, ");
 }
 */
+// opgave 8
 
+
+
+Console.Clear();
+Console.WriteLine("How many odd numbers would you like?");
+int length = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+int oddnumbers = 1;
+
+for (int i = 0; i < length; i++;)
+{
+    Console.Write($"{oddnumbers} ");
+    oddnumbers += 2;
+
+}
 
