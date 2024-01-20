@@ -51,9 +51,49 @@ for(double i = 3; i < 4000000;)
   Console.WriteLine(fib);
   }
   
- 
-  
 }
+// ID 3
 
 Console.WriteLine($"This is the sum {sum}");
+/*
+
+Console.Clear();
+Console.WriteLine("Which number would you like to check?");
+long number = Convert.ToInt64(Console.ReadLine());
+Console.Clear();
+
+for (int i = 2; 1 < number; i++)
+{
+    if (number % i == 0)
+    {
+        int count = 0;
+        while (number % i == 0)
+        {
+            number /= i;
+            count++;
+             Console.WriteLine($"{i} is a prime factor");
+        }
+    }
+}
 */
+
+//ID 4
+
+
+
+
+int num =  Convert.ToInt32(Console.ReadLine());
+int reverse = 0;
+
+while(num>0)
+{
+int remainder = num % 10;
+reverse =(reverse*10)+remainder;
+num = num/10;
+}
+if(reverse == num)
+
+
+Console.WriteLine($"reverse: {reverse}");
+
+
