@@ -1,0 +1,15 @@
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\bin\Debug\net6.0\05_arrays.exe
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\bin\Debug\net6.0\05_arrays.deps.json
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\bin\Debug\net6.0\05_arrays.runtimeconfig.json
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\bin\Debug\net6.0\05_arrays.dll
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\bin\Debug\net6.0\05_arrays.pdb
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\05_arrays.csproj.AssemblyReference.cache
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\05_arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\05_arrays.AssemblyInfoInputs.cache
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\05_arrays.AssemblyInfo.cs
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\05_arrays.csproj.CoreCompileInputs.cache
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\05_arrays.dll
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\refint\05_arrays.dll
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\05_arrays.pdb
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\05_arrays.genruntimeconfig.cache
+C:\Pro2023\Csharp\DesktopRepo\05_arrays\obj\Debug\net6.0\ref\05_arrays.dll
