@@ -437,76 +437,66 @@ Console.WriteLine(highestnumber);
 Console.WriteLine(highestnumb);
 */
 
+//ID 15
+// https://stemhash.com/counting-lattice-paths/
+/*
 
+int term = Convert.ToInt32(Console.ReadLine());
+double num = 1;
+double largestnumber = 0;
+Console.Clear();
 
-
-List<List<int>> grid = new List<List<int>>{
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
-new List<int>{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2}};
-int hold = 0;
-int holdrows = 0;
-int holdright = 0;
-int count = 0;
-for (int right = 0; right <= 2; right++)
+for (double i = 0; i <= term; i++)
 {
-    for (int rows = 0; rows <= 20; rows++)
+    for (double j = 0; j <= i; j++)
     {
-        holdrows = rows;
-        holdright = right;
-        while (hold != 2)
+        if (i == 0 || j == 0)
         {
+            num = 1;
 
-            hold = grid[rows][right];
-            if (hold == 0)
-            {
-                rows++;
-                Console.WriteLine(hold);
-            }
-            if (hold == 1)
-            {
-                right++;
-                Console.WriteLine(hold);
-            }
-            if (hold == 2)
-            {
-                count++;
-                Console.WriteLine(hold);
-                Console.WriteLine(count);
-                hold = 0;
-                break;
-            }
         }
-        rows = holdrows;
-        right = holdright;
-        grid[(20 - rows)][right] = 1;
-
+        else
+        {
+            num = num * (i - j + 1) / j;
+        }
+        if(num>largestnumber)
+        {
+            largestnumber = num;
+        }
+        Console.Write(num + " ");
 
     }
+    Console.Write("\n");
+
+
+
+}
+Console.WriteLine("---------------------------");
+Console.WriteLine(largestnumber);
+*/
+double sum = 1;
+double digitsum = 0;
+for(double i = 1; i <= 1000; i++)
+{
+    sum *=2;
+
+}
+string dada = Convert.ToString(sum);
+Console.WriteLine(dada);
+String substring = dada.Substring(0,20);
+Console.WriteLine(substring);
+/*
+Console.WriteLine(sum);
+for(double i = 1; i <=319; i++)
+{
+    double remainder = sum % 10;
+    digitsum += remainder;
+    sum = sum / 10;
+    Console.WriteLine(sum);
+
+
 }
 
-
-
-
-
-
+Console.WriteLine(digitsum);
+*/
 
