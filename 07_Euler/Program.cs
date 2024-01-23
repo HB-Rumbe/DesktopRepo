@@ -352,24 +352,24 @@ Console.WriteLine(largestnumber);
 // ID 12
 /*
 long sum = 0;
-for (long i = 1; i>0;i++)
+for (long i = 1; i > 0; i++)
 {
     sum += i;
     int count = 0;
-    for (long j = 1; j*j<=sum; j++)
+    for (long j = 1; j * j <= sum; j++)
     {
 
         if (sum % j == 0)
         {
-            count +=2;
-            if(j*j == sum)
+            count += 2;
+            if (j * j == sum)
             {
-            count--;
+                count--;
             }
         }
 
     }
-    if (count>500)
+    if (count > 500)
     {
         Console.WriteLine(sum);
         Console.WriteLine(count);
@@ -394,13 +394,115 @@ for(int i = 0; i < 4970; i+=50)
 Console.WriteLine(sum);
 */
 
+// ID 14
+/*
+long highestnumber = 0;
+long highestnumb = 0;
+long hold = 0;
+
+
+for (long i = 3; i < 1000000; i++)
+{
+    hold = i;
+    int count = 0;
+
+
+    while (hold > 2)
+    {
+
+        if (hold % 2 == 0)
+        {
+            hold /= 2;
+            count++;
+
+        }
+        if (hold % 2 != 0)
+        {
+            hold *= 3;
+            hold += 1;
+            count++;
+
+        }
+    }
+
+    if (count > highestnumber)
+    {
+        highestnumber = count;
+        highestnumb = i;
+    }
+
+
+}
+Console.WriteLine(highestnumber);
+Console.WriteLine(highestnumb);
+*/
 
 
 
 
+List<List<int>> grid = new List<List<int>>{
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2},
+new List<int>{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2}};
+int hold = 0;
+int holdrows = 0;
+int holdright = 0;
+int count = 0;
+for (int right = 0; right <= 2; right++)
+{
+    for (int rows = 0; rows <= 20; rows++)
+    {
+        holdrows = rows;
+        holdright = right;
+        while (hold != 2)
+        {
+
+            hold = grid[rows][right];
+            if (hold == 0)
+            {
+                rows++;
+                Console.WriteLine(hold);
+            }
+            if (hold == 1)
+            {
+                right++;
+                Console.WriteLine(hold);
+            }
+            if (hold == 2)
+            {
+                count++;
+                Console.WriteLine(hold);
+                Console.WriteLine(count);
+                hold = 0;
+                break;
+            }
+        }
+        rows = holdrows;
+        right = holdright;
+        grid[(20 - rows)][right] = 1;
 
 
-
+    }
+}
 
 
 

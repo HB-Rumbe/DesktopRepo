@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Bruger\\.nuget\\packages\\": {}
+    "C:\\Users\\Tommy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pro2023\\Csharp\\DesktopRepo\\07_Euler\\07_Euler.csproj",
+      "projectUniqueName": "C:\\pro2023\\DesktopRepo\\07_Euler\\07_Euler.csproj",
       "projectName": "07_Euler",
-      "projectPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\07_Euler\\07_Euler.csproj",
-      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-      "outputPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\07_Euler\\obj\\",
+      "projectPath": "C:\\pro2023\\DesktopRepo\\07_Euler\\07_Euler.csproj",
+      "packagesPath": "C:\\Users\\Tommy\\.nuget\\packages\\",
+      "outputPath": "C:\\pro2023\\DesktopRepo\\07_Euler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Tommy\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
