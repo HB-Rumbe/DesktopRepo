@@ -1,0 +1,15 @@
+C:\pro2023\DesktopRepo\08_åbenhus\bin\Debug\net6.0\08_åbenhus.exe
+C:\pro2023\DesktopRepo\08_åbenhus\bin\Debug\net6.0\08_åbenhus.deps.json
+C:\pro2023\DesktopRepo\08_åbenhus\bin\Debug\net6.0\08_åbenhus.runtimeconfig.json
+C:\pro2023\DesktopRepo\08_åbenhus\bin\Debug\net6.0\08_åbenhus.dll
+C:\pro2023\DesktopRepo\08_åbenhus\bin\Debug\net6.0\08_åbenhus.pdb
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\08_åbenhus.csproj.AssemblyReference.cache
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\08_åbenhus.GeneratedMSBuildEditorConfig.editorconfig
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\08_åbenhus.AssemblyInfoInputs.cache
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\08_åbenhus.AssemblyInfo.cs
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\08_åbenhus.csproj.CoreCompileInputs.cache
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\08_åbenhus.dll
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\refint\08_åbenhus.dll
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\08_åbenhus.pdb
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\08_åbenhus.genruntimeconfig.cache
+C:\pro2023\DesktopRepo\08_åbenhus\obj\Debug\net6.0\ref\08_åbenhus.dll

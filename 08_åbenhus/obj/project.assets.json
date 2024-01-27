@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\pro2023\\DesktopRepo\\07_Euler\\07_Euler.csproj",
-      "projectName": "07_Euler",
-      "projectPath": "C:\\pro2023\\DesktopRepo\\07_Euler\\07_Euler.csproj",
+      "projectUniqueName": "C:\\pro2023\\DesktopRepo\\08_åbenhus\\08_åbenhus.csproj",
+      "projectName": "08_åbenhus",
+      "projectPath": "C:\\pro2023\\DesktopRepo\\08_åbenhus\\08_åbenhus.csproj",
       "packagesPath": "C:\\Users\\Tommy\\.nuget\\packages\\",
-      "outputPath": "C:\\pro2023\\DesktopRepo\\07_Euler\\obj\\",
+      "outputPath": "C:\\pro2023\\DesktopRepo\\08_åbenhus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tommy\\AppData\\Roaming\\NuGet\\NuGet.Config"

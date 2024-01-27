@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "08_åbenhus/1.0.0": {
+        "runtime": {
+          "08_åbenhus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "08_åbenhus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
