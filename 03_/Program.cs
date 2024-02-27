@@ -1,70 +1,10 @@
-using static System.Console;
 
-int padding = 1;
-string o = "o";
-CursorVisible = false;
-String newline = "\n";
-bool newlin = false;
+List<string> words = new List<string> { earthquake, undress, alive, comfortable, precious, orange, person, gabby, average, consist, spot, race, fuzzy, root, part, story, realize, cure, squalid, married, balance, cabbage, great, unwieldy, air, guide, spray, broken, shrug, match, relation, pathetic, bee, advice, holistic, adaptable, shame, fireman, visit, cub, attend, harmony, look, notebook, stingy, unique, tawdry, memorize, agreement, disagreeable, luxuriant, wrong, fearless, reply, ultra, ghost, knife, lake, route, verdant, stupid, peace, wind, rightful, surround, four, manage, hover, dreary, tart, bake, good, tight, file, writing, tank, womanly, scrape, sincere, elfin, brother, grandfather, satisfying, reward, second, join, society, fang, scary, sore, decide, bruise, muddled, texture, material, playground, skirt, determined, bird, condemned, vengeful, wheel, tiger, choke, sniff, lewd, record, fat, zipper, stew, malicious, quirky, descriptive, stranger, grotesque, resonant, meaty, fluffy, achiever, first, domineering, care, crooked, mysterious, exultant, chickens, trite, rare, cup, overt, stem, fill, ashamed, eggs, numberless, arithmetic, premium, grumpy, ancient, fragile, addicted, thought, yielding, place, belong, rings, beneficial, boiling, expert, cough, ducks, existence, blind, tremble, mute, heavenly, ants, soup, prefer, dock, resolute, face, wound, help, gigantic, pleasure, seemly, bore, interest, acid, aftermath, flame, handsomely, second - hand, earth, argument, explode, suggest, quaint, toes, sulky, mass, argue, pump, babies, honey, disarm, tomatoes, trick, spiffy, typical, station, seashore, hushed, cave, education, add, unfasten, bleach, tomato };
 
-while(true)
-{
-
-    
-    Clear();
-    SetCursorPosition(0, 0);
-    WriteLine("Money: " + money + "$");
-    SetCursorPosition(x, y);
-    Write("o");
-    Thread.Sleep(speed);
-    string read = Console.ReadLine()!;
+List<int> wordsnumber = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
 
-    if (x == 80 && y == 5)
-    {
-        x = 0;
-        y = 1;
-        money++;
+Random rnd = new Random();
 
-    }
-    else if (x == 80)
-    {
-        x = 0;
-        y++;
-
-    }
-
-    else if (read != "")
-    {
-        track = false;
-        breakout = true;
-        string help = "HELP SECTION";
-        string t = "T = TRACK VIEW (Unpaused)";
-        string h = "H = HELP SECTION (Paused)";
-        string s = "S = SHOP VIEW (Paused)";
-        Console.Clear();
-        Console.SetCursorPosition((Console.WindowWidth - help.Length) / 4, Console.CursorTop);
-        Console.WriteLine(help);
-        Console.Write("\n");
-        Console.SetCursorPosition((Console.WindowWidth - t.Length) / 4, Console.CursorTop);
-        Console.WriteLine(t);
-        Console.SetCursorPosition((Console.WindowWidth - h.Length) / 4, Console.CursorTop);
-        Console.WriteLine(h);
-        Console.SetCursorPosition((Console.WindowWidth - s.Length) / 4, Console.CursorTop);
-        Console.WriteLine(s);
-    }
-    x++;
-}
-
-
-if(padding < 81)
-{
- Thread.Sleep(50);
- Clear();
- padding++;
- Console.Write(o.PadLeft(padding));
-  
-}
-
-
-}
-
+for (int i = 0; i <= 199; i++)
+    int random = rnd.Next(0, 199)

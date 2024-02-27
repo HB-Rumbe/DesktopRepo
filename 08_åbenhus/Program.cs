@@ -12,6 +12,7 @@ List<int> roulette = new List<int>
 
 int random = rnd.Next(0, 5);
 roulette[random] = 0;
+
 /*
 for (int i = 0; i < 6; i++)
 {
