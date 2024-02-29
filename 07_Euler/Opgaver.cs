@@ -486,6 +486,23 @@ public static class ProjectEuler
         Console.WriteLine("---------------------------");
         Console.WriteLine(largestnumber);
     }
+    public static void ID16()
+    {
+        BigInteger powersum = BigInteger.Pow(2, 1000);
+
+        string KD = Convert.ToString(powersum);
+        int sum = 0;
+
+        for (int i = 0; i < KD.Length; i++)
+        {
+            sum += Convert.ToInt32(KD.Substring(i, 1));
+        }
+
+        Console.WriteLine(sum);
+
+
+
+    }
     public static void ID20()
     {
         // ID 20
@@ -563,8 +580,8 @@ public static class ProjectEuler
         int count = uniquenumbers.Count;
         Console.WriteLine(count);
 
-    }
 
+    }
 
 
 
