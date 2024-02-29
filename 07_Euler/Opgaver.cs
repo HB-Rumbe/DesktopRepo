@@ -503,6 +503,89 @@ public static class ProjectEuler
 
 
     }
+    public static void ID17()
+    {
+        string one = "one";
+        string two = "two";
+        string three = "three";
+        string four = "four";
+        string five = "five";
+        string six = "six";
+        string seven = "seven";
+        string eight = "eight";
+        string nine = "nine";
+        string ten = "ten";
+        string eleven = "eleven";
+        string twelve = "twelve";
+        string thirteen = "thirteen";
+        string fourteen = "fourteen";
+        string fifteen = "fifteen";
+        string sixteen = "sixteen";
+        string seventeen = "seventeen";
+        string eighteen = "eighteen";
+        string nineteen = "nineteen";
+        string twenty = "twenty";
+        string thirty = "thirty";
+        string forty = "forty";
+        string fifty = "fifty";
+        string sixty = "sixty";
+        string seventy = "seventy";
+        string eighty = "eighty";
+        string ninety = "ninety";
+        string onehundred = "onehundredand";
+        string twohundred = "twohundredand";
+        string threehundred = "threehundredand";
+        string fourhundred = "fourhundredand";
+        string fivehundred = "fivehundredand";
+        string sixhundred = "sixhundredand";
+        string sevenhundred = "sevenhundredand";
+        string eighthundred = "eighthundredand";
+        string ninehundred = "ninehundredand";
+        string onetousand = "onetousand";
+
+        string onetonine = one + two + three + four + five + six + seven + eight + nine;
+        string onetonineteen = one + two + three + four + five + six + seven + eight + nine + ten + eleven + twelve + thirteen + fourteen + fifteen + sixteen + seventeen + eighteen + nineteen;
+        string alltens = twenty + thirty + forty + fifty + sixty + seventy + eighty + ninety;
+        string hundreds = onehundred + twohundred + threehundred + fourhundred + fivehundred + sixhundred + sevenhundred + eighthundred + ninehundred;
+        string hundredswithoutand = "onehundredtwohundredthreehundredfourhundredfivehundredandsixhundredsevenhundredeighthundredninehundred";
+        int sum = 0;
+        int sum2 = 0;
+        int sum3 = 0;
+        int sum4 = 0;
+
+        //one to nine between 20 and 80 in all the hundreds
+        for (int i = 0; i < 10; i++)
+        {
+            sum += Convert.ToInt32(onetonine.Length) * 8;
+        }
+        //one to nineteen all ten times
+        for (int i = 0; i < 10; i++)
+        {
+            sum2 += Convert.ToInt32(onetonineteen.Length);
+        }
+        //twenty, thithy etc. all 100 times.
+        for (int i = 0; i < 9; i++)
+        {
+            sum3 += Convert.ToInt32(alltens.Length) * 100;
+        }
+        //The hundreds
+        for (int i = 0; i < 9; i++)
+        {
+            sum4 += ((Convert.ToInt32(hundreds.Length) * 10)-27);
+        }
+
+
+
+
+        Console.WriteLine(onetonine);
+        Console.WriteLine(onetonineteen);
+        Console.WriteLine(sum);
+        Console.WriteLine(sum2);
+        Console.WriteLine(sum3);
+        Console.WriteLine(sum4);
+        Console.WriteLine(sum+sum2+sum3+sum4+onetousand.Length);
+
+    }
     public static void ID20()
     {
         // ID 20
