@@ -1,16 +1,32 @@
 ﻿
-public class Program {
 
 
-public static void Main(){
-    PrintPerson();
-    PrintPerson("Jason Doe", 18);
-    PrintPerson("Jaon Doe", 82);
+public class program
+{
+    public static void Main()
+    {
 
-}
 
-public static void PrintPerson(string name = "adad", int age = 16){
-    Console.WriteLine($"{name} is {age} years old");
-}
+        Console.WriteLine("Input some text for space counter.");
+        string input = Console.ReadLine();
+        Console.WriteLine($"The text has {Spacecount(input)} spaces.");
 
+
+
+
+    }
+    public static int Spacecount(string spaces)
+    {
+
+        int countspace = 0;
+
+        for (int i = 0; i < spaces.Length; i++)
+        {
+            if (string.IsNullOrWhiteSpace(spaces.Substring(i, 1)))
+            {
+                countspace++;
+            }
+        }
+        return countspace;
+    }
 }
