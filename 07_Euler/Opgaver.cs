@@ -571,7 +571,7 @@ public static class ProjectEuler
         //The hundreds
         for (int i = 0; i < 9; i++)
         {
-            sum4 += ((Convert.ToInt32(hundreds.Length) * 10)-27);
+            sum4 += ((Convert.ToInt32(hundreds.Length) * 10) - 27);
         }
 
 
@@ -583,7 +583,45 @@ public static class ProjectEuler
         Console.WriteLine(sum2);
         Console.WriteLine(sum3);
         Console.WriteLine(sum4);
-        Console.WriteLine(sum+sum2+sum3+sum4+onetousand.Length);
+        Console.WriteLine(sum + sum2 + sum3 + sum4 + onetousand.Length);
+
+    }
+    public static void ID18()
+    {
+        Console.Clear();
+
+        List<List<int>> grid = new List<List<int>>{
+
+        new List<int>{04, 62, 98, 27, 23, 09, 70, 98, 73, 93, 38, 53, 60, 04, 23},
+        new List<int>{63, 66, 04, 68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31},
+        new List<int>{91, 71, 52, 38, 17, 14, 91, 43, 58, 50, 27, 29, 48},
+        new List<int>{70, 11, 33, 28, 77, 73, 17, 78, 39, 68, 17, 57},
+        new List<int>{53, 71, 44, 65, 25, 43, 91, 52, 97, 51, 14},
+        new List<int>{41, 48, 72, 33, 47, 32, 37, 16, 94, 29},
+        new List<int>{41, 41, 26, 56, 83, 40, 80, 70, 33},
+        new List<int>{99, 65, 04, 28, 06, 16, 70, 92},
+        new List<int>{88, 02, 77, 73, 07, 63, 67},
+        new List<int>{19, 01, 23, 75, 03, 34},
+        new List<int>{20, 04, 82, 47, 65},
+        new List<int>{18, 35, 87, 10},
+        new List<int>{17, 47, 82},
+        new List<int>{95, 64},
+        new List<int>{75}};
+
+        // grid[2][1] = 47
+        // grid[2][2] = 82
+        // grid[3][2] = 87
+
+        for (int i = 0; i <= 14; i++)
+        {
+            for (int j = 0; j < 15 - i; j++)
+            {
+                Console.Write(grid[i][j] + " ");
+            }
+            Console.WriteLine();
+        }
+
+
 
     }
     public static void ID20()
@@ -608,6 +646,42 @@ public static class ProjectEuler
             digitcount++;
         }
         Console.WriteLine(digitsum);
+    }
+
+    public static void ID21()
+    {
+        List<int> numbers = new List<int>();
+
+        for(int i = 1; i < 10000; i++)
+        {
+            int sum = 0;
+            for(int j = 1; j < i; j++)
+            {
+               
+                if(i % j == 0)
+                {
+                    sum += j;
+                }
+            }
+            numbers.Add(sum);
+        }
+       
+        int sum2 = 0;
+        for (int i = 1; i< 9999; i++)
+        {
+            int sumofi = numbers[i];
+            if(sumofi < 10000 && sumofi - 1 < numbers.Count && sumofi != i+1 && numbers[sumofi-1] == i+1)
+            {
+                sum2 += i +1+ sumofi;
+               
+            }
+
+        }
+
+
+        Console.WriteLine(sum2);
+
+
     }
     public static void ID25()
     {
