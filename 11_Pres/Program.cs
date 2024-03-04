@@ -22,7 +22,7 @@ for (int i = 0; i < iteration - 3; i++)
  b = sum;
  Console.WriteLine(sum);
  iterationcount++;
-
+ // da
 }
 Console.WriteLine($"Iteration {iterationcount}'s value is {sum}");
 
