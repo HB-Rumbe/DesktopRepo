@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "nVsSn0ldhGxznSZihiIi05wHIczXg6CZv00bX9dXi6E4PrF4/bk1DqDn1L0nKvaLNpVQZdXSVRbqtIXeHCrb9A==",
   "success": true,
   "projectFilePath": "C:\\Pro2023\\Csharp\\DesktopRepo\\10_methods\\10_methods.csproj",
+=======
+  "dgSpecHash": "YgUTq5STZ4KVtlRnCrH70LwJTCUXzNTemDrkIrHuuh3mgVcfSk1WLvptnF2Z+D9gwZfLb5RNUCR6OQGgNJPM/Q==",
+  "success": true,
+  "projectFilePath": "C:\\pro2023\\DesktopRepo\\10_methods\\10_methods.csproj",
+>>>>>>> 1d15f0d00a95c84ebd3f4d3c6b2dc8906c602e1b
   "expectedPackageFiles": [],
   "logs": []
 }

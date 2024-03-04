@@ -1,0 +1,15 @@
+C:\pro2023\DesktopRepo\11_Pres\bin\Debug\net6.0\11_Pres.exe
+C:\pro2023\DesktopRepo\11_Pres\bin\Debug\net6.0\11_Pres.deps.json
+C:\pro2023\DesktopRepo\11_Pres\bin\Debug\net6.0\11_Pres.runtimeconfig.json
+C:\pro2023\DesktopRepo\11_Pres\bin\Debug\net6.0\11_Pres.dll
+C:\pro2023\DesktopRepo\11_Pres\bin\Debug\net6.0\11_Pres.pdb
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\11_Pres.csproj.AssemblyReference.cache
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\11_Pres.GeneratedMSBuildEditorConfig.editorconfig
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\11_Pres.AssemblyInfoInputs.cache
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\11_Pres.AssemblyInfo.cs
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\11_Pres.csproj.CoreCompileInputs.cache
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\11_Pres.dll
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\refint\11_Pres.dll
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\11_Pres.pdb
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\11_Pres.genruntimeconfig.cache
+C:\pro2023\DesktopRepo\11_Pres\obj\Debug\net6.0\ref\11_Pres.dll
