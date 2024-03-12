@@ -647,33 +647,32 @@ public static class ProjectEuler
         }
         Console.WriteLine(digitsum);
     }
-
     public static void ID21()
     {
         List<int> numbers = new List<int>();
 
-        for(int i = 1; i < 10000; i++)
+        for (int i = 1; i < 10000; i++)
         {
             int sum = 0;
-            for(int j = 1; j < i; j++)
+            for (int j = 1; j < i; j++)
             {
-               
-                if(i % j == 0)
+
+                if (i % j == 0)
                 {
                     sum += j;
                 }
             }
             numbers.Add(sum);
         }
-       
+
         int sum2 = 0;
-        for (int i = 1; i< 9999; i++)
+        for (int i = 1; i < 9999; i++)
         {
             int sumofi = numbers[i];
-            if(sumofi < 10000 && sumofi - 1 < numbers.Count && sumofi != i+1 && numbers[sumofi-1] == i+1)
+            if (sumofi < 10000 && sumofi - 1 < numbers.Count && sumofi != i + 1 && numbers[sumofi - 1] == i + 1)
             {
-                sum2 += i +1+ sumofi;
-               
+                sum2 += i + 1 + sumofi;
+
             }
 
         }
@@ -711,6 +710,21 @@ public static class ProjectEuler
 
         Console.WriteLine(iteration);
     }
+ 
+    public static void ID26()
+    {
+        BigInteger test = 1;
+        BigInteger test2 = 1;
+        BigInteger sum = 0;
+        for(int i = 0; i <101; i++)
+        {
+            sum = BigInteger.Divide(test,test2);
+            Console.WriteLine(sum);
+            test2++;
+        }
+
+
+    }
     public static void ID29()
     {
         // ID 29
@@ -739,6 +753,21 @@ public static class ProjectEuler
 
 
     }
+    public static void ID48()
+    {
+
+        BigInteger sum = 1;
+        int power = 2;
+        for (BigInteger i = 2; i <= 1000; i++)
+        {
+            sum = BigInteger.Add(BigInteger.Pow(i, power), sum);
+            power++;
+        }
+        Console.WriteLine(sum % 10000000000);
+
+    }
+
+
 
 
 
