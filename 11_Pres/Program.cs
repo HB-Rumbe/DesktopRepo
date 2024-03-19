@@ -126,7 +126,7 @@ public class Program
                 neither++;
             }
         }
-        
+
         char[] lowercasesarray = new char[lowercase];
         char[] uppercasesarray = new char[uppercase];
         char[] neitherarray = new char[neither];

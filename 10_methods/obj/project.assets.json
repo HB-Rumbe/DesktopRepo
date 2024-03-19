@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Bruger\\.nuget\\packages\\": {}
+    "C:\\Users\\Tommy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pro2023\\Csharp\\DesktopRepo\\10_methods\\10_methods.csproj",
+      "projectUniqueName": "C:\\pro2023\\DesktopRepo\\10_methods\\10_methods.csproj",
       "projectName": "10_methods",
-      "projectPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\10_methods\\10_methods.csproj",
-      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
-      "outputPath": "C:\\Pro2023\\Csharp\\DesktopRepo\\10_methods\\obj\\",
+      "projectPath": "C:\\pro2023\\DesktopRepo\\10_methods\\10_methods.csproj",
+      "packagesPath": "C:\\Users\\Tommy\\.nuget\\packages\\",
+      "outputPath": "C:\\pro2023\\DesktopRepo\\10_methods\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Tommy\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -62,13 +62,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Pro2023\\Csharp\\DesktopRepo\\10_methods\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -1,6 +1,7 @@
 ﻿
-
 using System.Numerics;
+/*
+//ID 4
 public class program
 {
     public static void Main()
@@ -19,11 +20,38 @@ public class program
         }
         Console.Write(input % 10 + " ");
 
-
-
     }
 
 }
+*/
 
 
+
+
+//ID5
+/*
+public class program
+{
+    public static void Main()
+    {
+        Console.WriteLine("Please enter a number.");
+        int input = Convert.ToInt32(Console.ReadLine());
+        int count = Recursion(input);
+        Console.WriteLine(count);
+
+
+    }
+    static int Recursion(int input)
+    {
+        if (input < 10)
+        {
+            return 1;
+        }
+        int result = Recursion(input / 10);
+        result++;
+        return result;
+    }
+}
+*/
+//ID 6
 
